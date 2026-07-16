@@ -21,6 +21,7 @@ def _allowed_origins():
         'http://127.0.0.1:5173',
         'capacitor://localhost',
         'http://localhost',
+        'http://localhost:3000',
     ]
     extra = [o.strip() for o in os.environ.get('ALLOWED_ORIGINS', '').split(',') if o.strip()]
     return list(set(base + extra))

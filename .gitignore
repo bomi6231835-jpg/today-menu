@@ -26,10 +26,12 @@ build/
 dist/
 package-lock.json 
 
+
 # ===== IDE / OS =====
 .vscode/
 .idea/
 .DS_Store
+.git
 
 .env
 back/.env
